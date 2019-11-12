@@ -21,11 +21,7 @@
       <artifactId>webcam-capture</artifactId>
       <version>${project.version}</version>
     </dependency>
-    <dependency>
-      <groupId>com.nativelibs4java</groupId>
-      <artifactId>bridj</artifactId>
-      <version>0.7.0</version>
-    </dependency>
+
     <dependency>
       <groupId>org.openimaj</groupId>
       <artifactId>core-video-capture</artifactId>
@@ -154,6 +150,13 @@
           <groupId>com.sun.media</groupId>
         </exclusion>
       </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.nativelibs4java</groupId>
+      <artifactId>bridj</artifactId>
+      <version>0.7-20140918-2</version>
+      <scope>system</scope>
+      <systemPath>${project.basedir}/src/main/resources/bridj-0.7-20140918-2.jar</systemPath>
     </dependency>
   </dependencies>
 
